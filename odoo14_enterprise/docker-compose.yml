@@ -8,7 +8,7 @@ services:
     build:
       context: ./odoo14
     ports:
-      - "80:8069"
+      - "81:8069"
     volumes:
       - ./config/odoo.conf:/etc/odoo/odoo.conf
       - ./addons:/mnt/extra-addons/custom
